@@ -8,7 +8,7 @@ Given a keyword (or keyphrase) and a language, this application conducts a searc
 2. Fill the blank spaces in the json file with your own credentials. The program will not work properly if the json file is missing information or is not located in the same folder as the .py file.
 3. Run the program. `python my_tweet_fetcher.py text lang restype` <br />
     * The first argument is the word or phrase to be used in the search query.
-    If the keyword is composed of multiple words, it must be written in quotation marks (e.g. "my keyword"). 
+    If the keyword is composed of multiple words, it must be written in quotation marks (e.g. singleword --> "multiple words"). 
     * The second argument refers to the language of the tweets we want to fetch (following the ISO 639-1 nomenclature).
     * The third (optional) argument refers to the type of result to be obtained. The search will be focused on either "popular", "recent" or "mixed" tweets.
  
