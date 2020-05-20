@@ -5,7 +5,7 @@ Given a keyword (or keyphrase) and a language, this application conducts a searc
 
 ## Step-by-step usage
 1. Download and place the folder in a safe and easy-to-find directory.
-2. Fill the blank spaces in the json file with your own credentials. The program will not work properly if the json file is missing information or is not located in the same folder as the .py file.
+2. Fill the blank spaces in creds.json file with your own credentials. The program will not work properly if the json file is missing information or is not located in the same folder as the .py file.
 3. Run the program. `python my_tweet_fetcher.py text lang restype` <br />
     * The first argument is the word or phrase to be used in the search query.
     If the keyword is composed of multiple words, it must be written in quotation marks (e.g. singleword --> "multiple words"). 
